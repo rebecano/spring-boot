@@ -18,7 +18,7 @@ public class PetController {
     }
 
     @GetMapping("/destaque")
-    public Pet pet() {
+    public Pet destaque() {
         return new Pet("Thor", "Cachorro", 3);
     }
 
